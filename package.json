@@ -1,0 +1,36 @@
+{
+  "name": "hunny-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryptonite-Group-Inc/hunny-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cryptonite-Group-Inc/hunny-discord-bot/issues"
+  },
+  "homepage": "https://github.com/Cryptonite-Group-Inc/hunny-discord-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "ably": "^1.2.29",
+    "crypto-js": "^4.1.1",
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^1.7.3",
+    "nodemon": "^2.0.19",
+    "web3": "^1.7.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0"
+  }
+}
